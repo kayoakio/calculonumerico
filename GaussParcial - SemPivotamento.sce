@@ -1,8 +1,10 @@
 //function retorno = nomedafunction(parametros)
-function [A,b,x] = semgauss(n)
+function semgauss
     
     A = input('Entre com A: ')
     b = input('Entre com b: ')
+    
+    [n m] = size(A)
     
     for k = 1:(n-1)
         for i = (k+1):n
