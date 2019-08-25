@@ -4,8 +4,6 @@ function comgauss
     
     A = input('Entre com A: ')
     b = input('Entre com b: ')
-    blinha = b
-    Alinha = A
     
    [n m] = size(A)
    
@@ -37,5 +35,6 @@ function comgauss
         end
         x(i) = (b(i) - resposta) / A(i,i)
     end
+    
     
 endfunction
