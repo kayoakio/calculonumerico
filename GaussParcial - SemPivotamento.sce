@@ -1,4 +1,3 @@
-//function retorno = nomedafunction(parametros)
 function semgauss
     
     A = input('Entre com A: ')

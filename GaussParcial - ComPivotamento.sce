@@ -1,6 +1,4 @@
-//function retorno = nomedafunction(parametros)
-
-function comgauss
+function [A] = comgauss
     
     A = input('Entre com A: ')
     b = input('Entre com b: ')
@@ -35,6 +33,5 @@ function comgauss
         end
         x(i) = (b(i) - resposta) / A(i,i)
     end
-    
-    
+
 endfunction
